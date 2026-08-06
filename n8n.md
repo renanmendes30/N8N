@@ -1,5 +1,3 @@
----
-
 # n8n + PostgreSQL + Nginx na Oracle Cloud
 
 ## Requisitos
