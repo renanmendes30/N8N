@@ -399,13 +399,3 @@ sudo certbot --nginx -d n8n.seudominio.com
 ```yaml
 N8N_SECURE_COOKIE: "true"
 ```
-
----
-
-Eu também adicionaria ao repositório um `README.md` com esse passo a passo, um `.env.example` (sem senhas) e a estrutura de pastas pronta para que qualquer pessoa consiga clonar o projeto, editar o `.env` e executar apenas:
-
-```bash
-docker compose up -d
-```
-
-Isso deixa o projeto muito mais fácil de usar e manter.
